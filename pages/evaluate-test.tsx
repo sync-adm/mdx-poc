@@ -28,7 +28,7 @@ export default function EvaluateTest() {
   const pageProps = { Component1: { name: "Mdx Rocks" } };
   return (
     <>
-      <h1>Something about MDX:</h1>
+      {/* <h1>Something about MDX:</h1> */}
       {Render({ components: { Component1 }, ...pageProps })}
     </>
   );

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 
 type Component1Props = {
@@ -8,7 +9,10 @@ const Component1 = ({name}: Component1Props) => {
     
   return (
     <div>
-        {name}
+        <Link href={"/about"}>
+          Click to check if "next/link" works
+        </Link>
+        {/* {name} */}
     </div>
   )
 }

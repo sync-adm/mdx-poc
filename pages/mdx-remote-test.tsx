@@ -22,7 +22,7 @@ interface MDXRemoteTestProps {
 export default function MDXRemoteTest({ mdxSource }: MDXRemoteTestProps) {
   return (
     <>
-      <h1>Something about MDX:</h1>
+      {/* <h1>Something about MDX:</h1> */}
       <MDXRemote {...mdxSource} components={components} />
     </>
   );
