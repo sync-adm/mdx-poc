@@ -1,18 +1,16 @@
 import Link from 'next/link';
-import React from 'react'
+import React from 'react';
 
-type Component1Props = {
-    name: any;
-}
 
-const Component1 = ({name}: Component1Props) => {
-    
+
+
+const Component1 = () => {
+
   return (
     <div>
         <Link href={"/about"}>
           Click to check if "next/link" works
         </Link>
-        {/* {name} */}
     </div>
   )
 }
